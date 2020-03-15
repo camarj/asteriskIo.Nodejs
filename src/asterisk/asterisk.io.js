@@ -3,7 +3,7 @@ require("events").EventEmitter.prototype._maxListeners = 1000;
 const aio = require("asterisk.io");
 
 const io = socket.io;
-ami = aio.ami("localhost", 5038, "admin", "admin");
+ami = aio.ami("test2.gosmartpbx.com", 5038, "admin", "vgetpa10");
 ami.on("error", function(err) {
   throw err;
 });
